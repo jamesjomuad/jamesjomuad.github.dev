@@ -14,6 +14,8 @@ selector: 'app-root',
 
 export class AppComponent implements AfterViewInit {
 
+  navActive: string;
+
   /*
   * Constructor Method
   */
@@ -21,7 +23,6 @@ export class AppComponent implements AfterViewInit {
 
     router.events.subscribe(event => {
       if (event instanceof NavigationEnd ) {
-        console.log("current url",event.url); // event.url has current url
         this.navActive = event.url;
       }
     });
