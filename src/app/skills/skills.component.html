@@ -1,0 +1,52 @@
+<br id="skills">
+<div class="view intro jarallax" style="background-image: url(/assets/images/skills.jpg); background-attachment: fixed;  background-size: cover; min-height: 700px">
+  <div class="full-bg-img mask rgba-white-strong">
+      <div class="container py-4 pt-4">
+          <section>
+              <!-- First row -->
+              <div class="row py-5">
+
+                  <!--First column-->
+                  <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+                    <!--Section heading-->
+                    <div class="d-flex justify-content-start">
+                        <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">My <strong>experience</strong></h4>
+                    </div>
+
+                    <!--Company Timeline-->
+                    <section style="overflow:auto;max-height:450px;">
+                      <!-- ng Loop -->
+                      <blockquote *ngFor="let xp of experience" class="blockquote bq-warning mb-4">
+                          <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold mb-3">{{xp.title}}</h5>
+                          </div>
+                          <p class="font-weight-bold ml-1 dark-grey-text p-0 m-0">{{xp.company}}</p>
+                          <p class="font-weight-bold ml-1 dark-grey-text p-0 m-0">{{xp.date}}</p>
+                          <p *ngIf="xp.description" [innerHtml]="xp.description" class="mb-0 ml-1 light-grey-text"></p>
+                      </blockquote>
+                    </section>
+                  </div>
+
+                  <!-- Skillsets -->
+                  <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+                      <!--Second heading-->
+                      <div class="d-flex justify-content-start">
+                          <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Development <strong>Skills</strong></h4>
+                      </div>
+                      <!--Description-->
+                      <section class="pr-4" style="overflow:auto;max-height:450px;">
+                        <div *ngFor="let skill of skillset">
+                          <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">{{skill.title}}</p>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar"  [style.width.%]="skill.percent"></div>
+                          </div>
+                        </div>
+                      </section>
+                  </div>
+                  <!--/Second column-->
+              </div>
+              <!--/First row-->
+          </section>
+      </div>
+  </div>
+</div>

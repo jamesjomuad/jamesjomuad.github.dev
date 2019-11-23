@@ -1,0 +1,27 @@
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark ie-nav rgba-red-strong" [containerInside]="false">
+  <links class="d-flex justify-content-center">
+    <ul class="navbar-nav nav nav-pills">
+      <li class="nav-item waves-light mx-2" [ngClass]="{'active': navActive=='/' || navActive=='/#home'}" mdbWavesEffect>
+          <a class="nav-link" href="/#/#home" >Home</a>
+      </li>
+      <li class="nav-item waves-light mx-2" [ngClass]="{'active': navActive=='/#about'}" mdbWavesEffect>
+          <a class="nav-link" href="/#/#about">About</a>
+      </li>
+      <li class="nav-item waves-light mx-2" [ngClass]="{'active': navActive=='/#skills'}" mdbWavesEffect>
+          <a class="nav-link" href="/#/#skills">Skills</a>
+      </li>
+      <li class="nav-item waves-light mx-2" [ngClass]="{'active': navActive=='/#works'||navActive.indexOf('/work/')==0}" mdbWavesEffect>
+          <a class="nav-link" href="/#/#works">Works</a>
+      </li>
+      <li class="nav-item waves-light mx-2" [ngClass]="{'active': navActive=='/#certificates'}" mdbWavesEffect>
+        <a class="nav-link" href="/#/#certificates">Certificates</a>
+      </li>
+      <li class="nav-item waves-light mx-2" [ngClass]="{'active': navActive=='/#contact'}" mdbWavesEffect>
+        <a class="nav-link" href="/#/#contact">Contact</a>
+      </li>
+    </ul>
+  </links>
+  <div class="clearfix p-3">&nbsp;</div>
+</mdb-navbar>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,314 @@
+[
+    {
+        "name": "Aeroparks",
+        "route": "aeroparks",
+        "tag": "Web Application",
+        "technology":[
+            "Octobercms",
+            "JQuery",
+            "Lightsail",
+            "Laravel",
+            "Php"
+        ],
+        "description": "<p>A Web App parking management software. Using octobercms that is a laravel base framework. Integrates barcode reading and termal printer.</p><p>This project is getting me excite along the way cause this kind of framework is what ive been looking for. It gained me knowledge and felt confident. Its principle is like wordpress but in new technology.</p>",
+        "thumbnails": [
+            "/assets/images/works/aeroparks/040-Dashboard-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/041-Notifications-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/042-Key Movement-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/044-Bookings-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/045-Edit Booking-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/046-Booking Calendar-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/047-Manage Car Rents-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/048-Manage Car Rents-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/049-Manage Products-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/050-Bay Reports-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/051-Insights-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/052-Revenue-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/053-Settings-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/054-Signin-CMS-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/055-Media-Aeroparks.jpg",
+            "/assets/images/works/aeroparks/056-Manage Customers-Aeroparks.jpg"
+        ]
+    },
+    {
+        "name": "Slyce Gateway",
+        "route": "slyce-gateway",
+        "tag": "Web Application",
+        "technology": [
+            "Laravel",
+            "SQL",
+            "JQuery",
+            "Javascript",
+            "AWS",
+            "GIT"
+        ],
+        "description": "<p>SLYCE Gateway is a dashboard interface that provides merchants with payment gateway access. This web application will enable users to run sales and refunds, view reports, and use several other ancillary tools.</p> <strong>Role & Responsibilities</strong> <ul> <li>Domain name setup</li> <li>Server Monitoring</li> <li>Server Setup</li> <li>Backend PHP/Laravel</li> <li>SQL Queries</li> <li>DB/Schema Structure</li> <li>Front-end Bootstrap, Javascript/JQuery</li> <li>Aws SES Setup</li> <li>Aws S3 Setup</li> <li>Git</li> </ul>",
+        "thumbnails": [
+            "/assets/images/works/slycegateway/home.png",
+            "/assets/images/works/slycegateway/Customers.png",
+            "/assets/images/works/slycegateway/Settings.png",
+            "/assets/images/works/slycegateway/Subscription.png",
+            "/assets/images/works/slycegateway/Support.png",
+            "/assets/images/works/slycegateway/Tasks.png",
+            "/assets/images/works/slycegateway/Invoice.png",
+            "/assets/images/works/slycegateway/Overview.png",
+            "/assets/images/works/slycegateway/Payplans.png",
+            "/assets/images/works/slycegateway/Products.png",
+            "/assets/images/works/slycegateway/Users.png",
+            "/assets/images/works/slycegateway/Invoice%20-%20step%202.png",
+            "/assets/images/works/slycegateway/Invoice%20-%20step%203.png",
+            "/assets/images/works/slycegateway/Quick%20Sale%20Payment.png",
+            "/assets/images/works/slycegateway/Quick%20Sale.png",
+            "/assets/images/works/slycegateway/Refund%20-%20Void.png",
+            "/assets/images/works/slycegateway/Reports%20-%20ACH%20Summary.png",
+            "/assets/images/works/slycegateway/Reports%20-%20DeclineError.png",
+            "/assets/images/works/slycegateway/Reports%20-%20Transactions.png",
+            "/assets/images/works/slycegateway/Text%20Payments.png",
+            "/assets/images/works/slycegateway/User%20-%20edit.png"
+        ]
+    },
+    {
+        "name": "Email Invoice",
+        "route": "email-invoice",
+        "tag": "Web Application",
+        "technology": [
+            "Laravel",
+            "Rest api",
+            "SQL",
+            "JQuery",
+            "Javascript",
+            "AWS",
+            "GIT"
+        ],
+        "description": "A Restful api service that create and send electronic invoices with pdf attachment & send secured link to customers. Customize with just a few clicks and get paid faster using payment page.",
+        "thumbnails": [
+            "/assets/images/works/email-invoice/home.png",
+            "/assets/images/works/email-invoice/invoice.png"
+        ]
+    },
+    {
+        "name": "Slyce Global",
+        "route": "slyce-global",
+        "tag": "Web Application",
+        "technology": [
+            "Laravel",
+            "Angular",
+            "SQL",
+            "JQuery",
+            "Javascript",
+            "AWS",
+            "GIT"
+        ],
+        "description": "A web application for managing merchant and customer transactions. Derived from Slyce Gateway. This is an Angular project using. But this project was put onhold without clear reasons from our client.",
+        "thumbnails": [
+            "/assets/images/works/slyce-global/VirtualTerminal.png",
+            "/assets/images/works/slyce-global/Customers.png",
+            "/assets/images/works/slyce-global/home.png",
+            "/assets/images/works/slyce-global/Invoice%20-%20Archive.png",
+            "/assets/images/works/slyce-global/Invoice.png",
+            "/assets/images/works/slyce-global/Transactions.png"
+        ]
+    },
+    {
+        "name": "Kusina Uno",
+        "route": "kusina-uno",
+        "tag": "Graphics",
+        "description": "Before this restaurant was opened, I was responsible for its logo design and all other restaurant graphics material. This was one of my successful job i've done during my after graduate in college.",
+        "thumbnails": [
+            "/assets/images/works/kusina-uno/menu-front.jpg",
+            "/assets/images/works/kusina-uno/menu-back.jpg"
+        ]
+    },
+    {
+        "name": "Kids Karate Perth",
+        "route": "kids-karate-perth",
+        "tag": "Ecommerce",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": [
+            "/assets/images/works/kids-karate-perth/http_www.kids-karate-perth.com.au_.jpeg",
+            "/assets/images/works/kids-karate-perth/http_www.kids-karate-perth.com.au_about-kids-karate-perth_.jpeg",
+            "/assets/images/works/kids-karate-perth/http_www.kids-karate-perth.com.au_contact_.jpeg",
+            "/assets/images/works/kids-karate-perth/http_www.kids-karate-perth.com.au_locations_.jpeg",
+            "/assets/images/works/kids-karate-perth/http_www.kids-karate-perth.com.au_news_.jpeg",
+            "/assets/images/works/kids-karate-perth/http_www.kids-karate-perth.com.au_products_location_ballajura_.jpeg"
+        ]
+    },
+    {
+        "name": "Salt Property",
+        "route": "salt-property",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": [
+            "/assets/images/works/salt-property/http_saltproperty.com.au_.jpg",
+            "/assets/images/works/salt-property/http_saltproperty.com.au_about_.jpg",
+            "/assets/images/works/salt-property/http_saltproperty.com.au_blog_.jpeg",
+            "/assets/images/works/salt-property/http_saltproperty.com.au_contact_.jpg"
+        ]
+    },
+    {
+        "name": "UWA Junior Rugby",
+        "route": "uwa-junior-rugby",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": [
+            "/assets/images/works/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au_junior-news.jpeg",
+            "/assets/images/works/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au_juniors.jpeg",
+            "/assets/images/works/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au_juniorsrules-and-regulations.jpeg",
+            "/assets/images/works/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au.jpeg"
+        ]
+    },
+    {
+        "name": "Eastperth Safety",
+        "route": "eastperthsafety",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": [
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_.jpeg",
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_about-us_.jpeg",
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_contact-us_.jpeg",
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_issues_.jpeg",
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_links_.jpeg",
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_news_.jpeg",
+            "/assets/images/works/eastperthsafety.net/http_www.eastperthsafety.net_publications_.jpeg"
+        ]
+    },
+    {
+        "name": "Thompsons West Perth",
+        "route": "thompsonswestperth",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": [
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_about-thompsons-of-west-perth_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_adverts-and-offers_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_blog_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_collections_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_facebook_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_twitter_.jpeg",
+            "/assets/images/works/thompsonswestperth.com.au/http_thompsonswestperth.com.au_where-to-find-us_.jpeg"
+        ]
+    },
+    {
+        "name": "Ink Out",
+        "route": "ink-out",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": ["/assets/images/works/inkout/http_www.inkout.com.au_.jpeg"]
+    },
+    {
+        "name": "Limones",
+        "route": "limones",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": "/assets/images/works/limones.com.au/capture.jpg"
+    },
+    {
+        "name": "Asian Mining and Energy Investment (AMEI)",
+        "route": "amei",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails": [
+            "/assets/images/works/ameiconference.com/timthumb-115.jpg",
+            "/assets/images/works/ameiconference.com/timthumb-212.jpg",
+            "/assets/images/works/ameiconference.com/timthumb-310.jpg",
+            "/assets/images/works/ameiconference.com/timthumb-410.jpg",
+            "/assets/images/works/ameiconference.com/timthumb-58.jpg",
+            "/assets/images/works/ameiconference.com/timthumb-66.jpg",
+            "/assets/images/works/ameiconference.com/timthumb-76.jpg"
+        ]
+    },
+    {
+        "name": "Inteliprint",
+        "route": "inteliprint",
+        "tag": "Website",
+        "technology": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "thumbnails":[
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_about-us_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_about-us_frequently-asked-questions_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_about-us_testimonials_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_blog_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_page_2_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_printers-newcastle_25-print-ready-tips_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_printers-newcastle_sra-paper-sizes-commercial-printing_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_printers-newcastle_working-with-newcastle-small-business_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_products_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_refund-policy_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_rezourced_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_services_.jpeg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_services_digital-printing_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_services_finishing_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_services_graphic-design_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_services_photocopying_.jpg",
+            "/assets/images/works/inteliprint/http_www.inteliprint.com.au_services_scanning_.jpg"
+        ]
+    },
+    {
+        "name": "Biogas Technology",
+        "route": "biogas",
+        "thumbnails": [
+            "/assets/images/works/biogas/P_20160330_142544.jpg",
+            "/assets/images/works/biogas/DSC00068.jpg",
+            "/assets/images/works/biogas/DSC00078.jpg",
+            "/assets/images/works/biogas/P_20160330_142501_1_p.jpg",
+            "/assets/images/works/biogas/P_20160330_142704.jpg",
+            "/assets/images/works/biogas/P_20160330_143802.jpg",
+            "/assets/images/works/biogas/P_20160331_091902_1_p.jpg",
+            "/assets/images/works/biogas/side-a.jpg",
+            "/assets/images/works/biogas/side-b.jpg",
+            "/assets/images/works/biogas/side-c.jpg",
+            "/assets/images/works/biogas/side-d.jpg"
+        ]
+    },
+    {
+        "name": "Photography",
+        "route": "photography",
+        "tag": "Photography",
+        "thumbnails": ["/assets/images/works/photography/ginatilan-aerial-view.jpg"]
+    }
+]

@@ -1,0 +1,25 @@
+<div id="works"></div>
+<div class="view intro" style="min-height: 700px">
+  <div class="full-bg-img rgba-purple-slight">
+    <div class="container pb-5">
+      <div class="row py-5">
+        <div class="col-lg-12">
+          <h2 class="text-center text-uppercase mt-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">My <strong>Works</strong></h2>
+          <!-- <p class="text-center w-responsive mx-auto wow fadeIn my-5" style="visibility: visible; animation-name: fadeIn;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste provident, voluptatum voluptatibus aut modi aspernatur autem impedit, eius, debitis earum voluptatem. Quaerat hic aspernatur laborum magni earum. At, officiis!</p> -->
+        </div>
+      </div>
+
+      <div class="row wow fadeIn" data-wow-delay="0.4s" style="overflow: auto; max-height: 775px;">
+        <div *ngFor="let work of works" class="col-md-4 p-2 work">
+          <a href="/#/work/{{work.route}}" data-size="1600x1067">
+            <img src="{{ getThumb(work.thumbnails) }}" class="img-fluid z-depth-1">
+            <div class="middle">
+              <h3 class="black-text">{{ work.name }}</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="clearfix m-4"></div>
+    </div>
+  </div>
+</div>

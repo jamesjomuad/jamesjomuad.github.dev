@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Learn and Understand NodeJS",
+        "route": "learn-and-understand-node-js",
+        "date": "15-03-2017",
+        "url": "https://www.udemy.com/certificate/UC-F8ULDF7S/",
+        "thumbnail": "/assets/images/awards/UC-nodejs-F8ULDF7S.jpg",
+        "content": "This certificate above verifies that James Jomuad successfully completed the course Learn and Understand NodeJS on March 15, 2017 as taught by Anthony Alicea on Udemy. The certificate indicates the entire course was completed as validated by the student."
+    },
+    {
+        "title": "Introduction to AngularJS 2",
+        "route": "introduction-to-angular-js-2",
+        "date": "20-08-2016",
+        "thumbnail": "/assets/images/awards/cert-20-aug-2016.jpg"
+    },
+    {
+        "title": "Travel Photography",
+        "route": "travel-photography",
+        "date": "29-09-2017",
+        "thumbnail": "/assets/images/awards/UC-4EDNUFHG.jpg"
+    },
+    {
+        "title": "Premiere Pro 101",
+        "route": "premiere-pro-101",
+        "date": "29-09-2017",
+        "thumbnail": "/assets/images/awards/UC-QNW8RONU.jpg"
+    },
+    {
+        "title": "Beginner Photoshop to HTML5 and CSS3",
+        "route": "beginner-photoshop-to-html5-and-css3",
+        "date": "29-09-2017",
+        "thumbnail": "/assets/images/awards/UC-W7JPSOB8.jpg"
+    },
+    {
+        "title": "Dedicated Service and Commitment",
+        "route": "dedicated-service-and-commitment-2017",
+        "date": "05-05-2017",
+        "thumbnail": "/assets/images/awards/cert-05-may-2017.jpg"
+    },
+    {
+        "title": "Dedicated Service and Commitment",
+        "route": "dedicated-service-and-commitment-2016",
+        "date": "06-05-2016",
+        "thumbnail": "/assets/images/awards/cert-06-may-2016.jpg"
+    },
+    {
+        "title": "Certificate of Appreciation",
+        "route": "certificate-of-appreciation",
+        "date": "07-12-2013",
+        "thumbnail": "/assets/images/awards/cert-07-dec-2013.jpg"
+    }
+]

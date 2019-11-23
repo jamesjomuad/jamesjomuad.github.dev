@@ -1,0 +1,22 @@
+<div id="certificates"></div>
+<div class="view intro jarallax" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/background.jpg); background-attachment: fixed; min-height: 500px">
+  <div class="full-bg-img mask rgba-purple-slight">
+
+    <div class="container-fluid">
+      <div class="row pt-5 mt-4">
+        <div class="col-md-12">
+            <h2 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Certificates/<strong>Awards</strong></h2>
+            <!-- <p class="text-center w-responsive mx-auto wow fadeIn my-5" style="visibility: visible; animation-name: fadeIn;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste provident, voluptatum voluptatibus aut modi aspernatur autem impedit, eius, debitis earum voluptatem. Quaerat hic aspernatur laborum magni earum. At, officiis!</p> -->
+        </div>
+      </div>
+      <div class="owl-carousel" #carousel>
+        <div *ngFor="let award of awards">
+          <a href="{{award.thumbnail}}" class="fancybox" data-fancybox="gallery">
+            <img src="{{ award.thumbnail }}" class="img-responsive img-fluid z-depth-1 m-4">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix mb-5"></div>
+  </div>
+</div>

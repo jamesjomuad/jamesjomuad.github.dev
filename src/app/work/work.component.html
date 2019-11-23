@@ -1,0 +1,31 @@
+<div class="view intro" style="min-height: 700px">
+    <div class="full-bg-img rgba-red-strong">
+        <div class="container pb-5">
+            <div class="row py-5">
+                <div class="col-lg-12">
+                    <h1 class="text-center text-uppercase mt-5 py-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                        {{work.name}}
+                    </h1>
+                    <div *ngIf="work.description" [innerHtml]="work.description"></div>
+                </div>
+            </div>
+
+            <div *ngIf="work.technology">
+                <hr>
+                <mdb-badge *ngFor="let tech of work.technology" pill="true" primary="true" class="mx-1">{{tech}}</mdb-badge>
+                <hr class="mb-5">
+            </div>
+            
+
+            <div class="row wow fadeIn" data-wow-delay="0.4s">
+                <div *ngFor="let thumb of work.thumbnails" class="col-md-4 p-2 workthumb">
+                    <a href="{{thumb}}" class="fancybox" data-fancybox="gallery">
+                        <img src="{{ thumb }}" class="img-fluid z-depth-1">
+                    </a>
+                </div>
+            </div>
+
+            <div class="clearfix m-4"></div>
+        </div>
+    </div>
+</div>

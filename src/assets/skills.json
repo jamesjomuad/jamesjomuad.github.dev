@@ -1,0 +1,99 @@
+{
+    "experience" : [
+        {
+            "title": "Web Developer",
+            "company": "Ciirus",
+            "date": "December 2017 - November 2019",
+            "description": "Build Booking websites from templates and integrate it to the company system. Build custom templates and integrate system tokens."
+        },
+        {
+            "title": "Full Stack Web Developer",
+            "company": "Zylun",
+            "date": "May 2014 - August 2017",
+            "description": "- Add floor plan feature in the intranet <br> - Wins the angular app Challenge <br> - Received a certificate of appreciation for being the speaker of the Fifth Dev meetup “Introduction to AngularJS 2"
+        },
+        {
+            "title": "Web Developer",
+            "company": "Odusee Pty Ltd",
+            "date": "August 2011 - March 2014",
+            "description": "Continuing my career as a Web Designer/Developer. I manage the following responsibilities: <br> - Developed E-commerce & Blog sites using WordPress <br> - Successfully deliver clients websites on time <br> - Awarded for being silent but effective, quick, efficient developer in the team."
+        },
+        {
+            "title": "Web Designer, Wordpress Developer",
+            "company": "Smart Traffic Ltd",
+            "date": "May 2011 - August 2012",
+            "description": "Started as web designer and tried to be a web developer role. In just a few month, I manage to be a Web Designer/Developer in Wordpress."
+        }
+    ],
+
+    "skillset" : [
+        {
+            "title": "PHP (LARAVEL, OCTOBERCMS, WORDPRESS)",
+            "percent": 85
+        },
+        {
+            "title": "BOOTSTRAP, MATERIAL DESIGN",
+            "percent": 95
+        },
+        {
+            "title": "aws",
+            "percent": 70
+        },
+        {
+            "title": "nodejs",
+            "percent": 85
+        },
+        {
+            "title": "electronjs",
+            "percent": 75
+        },
+        {
+            "title": "ionic",
+            "percent": 50
+        },
+        {
+            "title": "Rest Api",
+            "percent": 95
+        },
+        {
+            "title": "ANGULAR",
+            "percent": 75
+        },
+        {
+            "title": "JQuery",
+            "percent": 100
+        },
+        {
+            "title": "git",
+            "percent": 95
+        },
+        {
+            "title": "mvc",
+            "percent": 95
+        },
+        {
+            "title": "Mysql",
+            "percent": 80
+        },
+        {
+            "title": "Typescript",
+            "percent": 70
+        },
+        {
+            "title": "SEO",
+            "percent": 60
+        },
+        {
+            "title": "Photoshop",
+            "percent": 96
+        },
+        {
+            "title": "linux",
+            "percent": 85
+        },
+        {
+            "title": "ssh",
+            "percent": 80
+        }
+    ]
+}

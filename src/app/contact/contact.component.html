@@ -1,0 +1,78 @@
+
+<!-- Contact Section -->
+<div id="contact" class="container">
+
+<!--Section: Contact v.2-->
+<section class="section contact-section mt-4 mb-5">
+    <!--Section heading-->
+    <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Hire <strong>me</strong></h2>
+
+    <div class="row wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+        <!--First column-->
+        <div class="col-md-8 mb-5">
+            <form #contact="ngForm">
+                <!--First row-->
+                <div class="row">
+
+                    <!--First column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <div class="md-form mb-0">
+                                <input type="text" id="form41" class="form-control" name="name" placeholder="Name" ngModel>
+                                <!-- <label for="form41" class="">Your name</label> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--Second column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <div class="md-form mb-0">
+                                <input type="text" id="form52" class="form-control" name="email" placeholder="Email" ngModel>
+                                <!-- <label for="form52" class="">Your email</label> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.First row-->
+
+                <!--Third row-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <textarea type="text" id="form76" class="md-textarea form-control" rows="3" placeholder="Your message" name="body" ngModel></textarea>
+                            <!-- <label for="form76">Your message</label> -->
+                        </div>
+                    </div>
+                </div>
+                <!--/.Third row-->
+
+                <div class="text-center text-md-left mt-4">
+                    <button class="btn btn-primary waves-effect waves-light" type="button" (click)="contactMe(contact.value)">Send</button>
+                </div>
+            </form>
+        </div>
+        <!--.First column-->
+
+        <!--Second column-->
+        <div class="col-md-4">
+            <ul class="contact-icons list-unstyled text-center">
+                <li>
+                    <a href="#" onclick="event.preventDefault()" ><i class="fas fa-map-marker-alt fa-2x"></i></a>
+                    <p>Cebu City, Philippines</p>
+                </li>
+                <li>
+                    <a href="#" onclick="event.preventDefault()" ><i class="fas fa-phone fa-2x"></i></a>
+                    <p>+63 995 096 1902</p>
+                </li>
+                <li>
+                    <a href="mailto:st.james.jomuad@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                    <p>st.james.jomuad@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--.Second column-->
+    </div>
+
+</section>
+<!--/Section: Contact v.2-->
